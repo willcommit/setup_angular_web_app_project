@@ -2,7 +2,7 @@
 
 This document is written by me as a high level cheat sheet for starting an Angular web app Project. Very much inspired (sprinkled with my own experience) by [Doguhan Uluca's fantastic book.](https://www.packtpub.com/web-development/angular-8-enterprise-ready-web-applications-second-edition#tab-label-product.info.authors.tab)  
 
-This is a living document that will be updated as new insights and experiences are gained. Feel free to contribute with your experiences.   
+This is a living document that will be updated as new insights and experiences are gained. Feel free to contribute with your own experiences of web app development.   
 
 # ANGULAR DEV ENV SETUP  
 This part is aimed for developers setting up their Angular development environment on a new machine. Most of the process can easily be scripted.   
