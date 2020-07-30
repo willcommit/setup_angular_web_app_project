@@ -58,7 +58,7 @@ This can be done in steps:
 I will now go over these steps one at a time.
 
 ## Develop a roadmap and scope
-In the team establish and write down the *requirement specification* and discuss how you with the least amount of overhead can deliver most amount of your apps functionality (Pareto Principle). 
+In the team establish and write down the **requirement specification** and discuss how you with the least amount of overhead can deliver most amount of your apps functionality (Pareto Principle). 
 Discuss who is the user of your app and their needs of UX, security and such. 
 Make a list of functionality that is "must haves" (ToDo board) and what should be on the "whish list" (Backlog board).
 
@@ -76,7 +76,7 @@ Very much linked to above step. Use a tool like [draw.io](https://app.diagrams.n
 ## Introduce agile project management
 Discuss if a Kanban board is enough or if we should go full Scrum from start?
 This of course depends on team size. For smaller teams I recommend a simple Kanban to start  especially if the Github workflow is chosen (see below step). Remember that a low overhead is key to moving fast and delivering value! A Kanban board can be easily added to Github repos via projects tab.  
-Start filling your backlog and todo with the list made form step "Develop a roadmap and scope". 
+Start filling your backlog and todo with the list made during step "Develop a roadmap and scope". 
 
 ## Which workflow?
 - Github flow - recommended for simplicity, suits web apps perfect, low overhead. Read about it here: https://guides.github.com/introduction/flow/
