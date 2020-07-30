@@ -120,7 +120,7 @@ There are many cloud providers out there, biggest ones are:
 When discussing which cloud provider to use, touch on following:
 
 - Should we implement full CD via Docker images?
-- Security and Threats (DDoS protection)
+- Security and Threats (securing APIs, DDoS protection, secure caching)
 - Scalability
 - Availability
 - Price
