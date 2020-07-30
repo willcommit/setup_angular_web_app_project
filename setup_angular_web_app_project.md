@@ -87,10 +87,10 @@ Start filling your backlog and todo with the list made during step "Develop a ro
 
 *GitHub flow is a branch-based workflow that supports teams and projects where deployments are made regularly* - GitHub
 
-The GitHub flow lets us deliver value in a reliable stream of changes, while ensuring quality standards at control gates - via pull requests.  
+The [GitHub flow](https://guides.github.com/introduction/flow/) lets us deliver value in a reliable stream of changes, while ensuring quality standards at control gates - via pull requests.  
 In a GitHub flow the master branch should always be deployable to production, changes are introduced via branches directly from the master branch. The steps of the GitHub flow are as follows:
 1. Branch - start by making a feature or fix branch, name it accordingly. This way the branches end up like a feature road map. Makes it very easy to overlook progress and discuss around.
-2. Commit - make commits often to your branch. Makes it easy to revert.
+2. Commit - make commits often to your branch. Makes it easy to revert and track history. Commit messages should be short and concise. The commit structure should be agreed upon and documented by the Team. 
 3. Create a pull request - when you have pushed your code to the repo and are ready to review it, make a pull request. This will initiate CI test and make the code ready for review by the team.
 4. Discuss and review - request a review of your code changes, address general or line-level comments and make necessary changes accordingly. When the branch is reviewed and tested you are ready for deployment. 
 5. Deploy - before merging code, deploy directly to production or a test server, which ever suit your business best. If the build breaks or issues arise you can always deploy the main/master branch instead. Continuous Deployment with Docker Images makes this process a lot easier and safer.
