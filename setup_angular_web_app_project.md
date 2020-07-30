@@ -11,7 +11,7 @@ This part is aimed for developers setting up their Angular development environme
 2. If using Linux or Windows WSL, I highly recommend installing node via [Node Version Manager](https://github.com/nvm-sh/nvm). Avoid installing global packages as much as possible. This is to avoid version conflicts that can arise if the project version of Angular and the global Angular CLI version are not on the same version. 
 3. Install VS Code. On Linux add the official repo from VS Code team to your package manager, don't recommend snap.
 4. Install Docker
-5. Setup dev folder, as close to root as possible.
+5. Setup a dedicated dev folder, as close to root as possible.
 6. Establish workflow and code styling, see next section "PROJECT SETUP"
 7. Generate application via ```npx @angular/cli new name-of-app```.
 8. Install VS Code extensions, agree within the team over a minimum set of extensions and add them to the extensions.json in .vscode folder (exclude .vscode/extensions.json from .gitignore).
