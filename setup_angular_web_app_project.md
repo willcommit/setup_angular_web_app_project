@@ -1,6 +1,6 @@
 # SETUP ANGULAR WEB APP PROJECT
 
-This document is written by me as a high level cheat sheet for starting an Angular web app Project. Very much inspired (sprinkled with my own experience) by [Doguhan Uluca's fantastic book.](https://www.packtpub.com/web-development/angular-8-enterprise-ready-web-applications-second-edition#tab-label-product.info.authors.tab)  
+This document is written by me as a high level cheat sheet for starting a new Angular web app Project. Very much inspired (sprinkled with my own experience) by [Doguhan Uluca's fantastic book.](https://www.packtpub.com/web-development/angular-8-enterprise-ready-web-applications-second-edition#tab-label-product.info.authors.tab)  
 
 This is a living document that will be updated as new insights and experiences are gained. Feel free to contribute with your own experiences of web app development.   
 
@@ -11,11 +11,13 @@ This part is aimed for developers setting up their Angular development environme
 2. If using Linux or Windows WSL, I highly recommend installing node via [Node Version Manager](https://github.com/nvm-sh/nvm). Avoid installing global packages as much as possible. This is to avoid version conflicts that can arise if project Angular and global Angular CLI are not on the same version. 
 3. Install VS Code. On Linux add the official repo from VS Code team to your package manager, don't recommend snap.
 4. Install Docker
-5. Setup dev folder, as close to root as possible. Name folder repos or dev
-6. Establish workflow and code styling, see section "Team Setup"
-7. Generate application via npx @angular/cli new name-of-app.
-8. Install VS Code extensions, agree within the team over a minimum set of extensions and add them to the extensions.json in .vscode folder (exclude .vscode/extensions.json from .gitignore). Se example Angular project on my Github.
-9. Setup code styling and linting according to team/project/company decisions made. Add the config files needed to enforce this to source and test on CI server.
+5. Setup dev folder, as close to root as possible.
+6. Establish workflow and code styling, see next section "PROJECT SETUP"
+7. Generate application via ```npx @angular/cli new name-of-app```.
+8. Install VS Code extensions, agree within the team over a minimum set of extensions and add them to the extensions.json in .vscode folder (exclude .vscode/extensions.json from .gitignore).
+9. Setup code styling and linting according to team/project/company decisions made. Add the config files needed to enforce this to source and script tests for CI server.
+
+Fantastic setup example: https://github.com/duluca/local-weather-app
 
 # PROJECT SETUP
 
@@ -56,7 +58,7 @@ This can be done in steps:
 I will now go over these steps one at a time.
 
 ## Develop a roadmap and scope
-In the team establish and write down the requirement specification and discuss how we with the least amount of overhead can deliver most amount of our apps functionality (Pareto Principle). 
+In the team establish and write down the *requirement specification* and discuss how you with the least amount of overhead can deliver most amount of your apps functionality (Pareto Principle). 
 Discuss who is the user of your app and their needs of UX, security and such. 
 Make a list of functionality that is "must haves" (ToDo board) and what should be on the "whish list" (Backlog board).
 
