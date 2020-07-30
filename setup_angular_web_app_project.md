@@ -31,7 +31,7 @@ Fantastic setup example in these config files: https://github.com/duluca/local-w
 - Groom a prioritized backlog
 - Ensure acceptance criteria are clear, concise and concrete
 
-The Pareto principle tells us that 20% of the effort delivers 80% of our goals. This means 80% of our time is spent on details. The be effective we should focus on the 20% were can get the most job done, with least amount of effort. In our case this is by building Line-of-Business apps which we can scale accordingly.  
+The Pareto principle tells us that 20% of the effort delivers 80% of our goals. This means 80% of our time is spent on details. To be effective we should focus on the 20% were can get the most job done, with least amount of effort. In our case this is by building Line-of-Business apps which we can scale accordingly.  
 Adhering to this principle it is very important to create a predictable environment for the team and keep engineering overhead at a minimum, focus on what really matters.
 Also always avoid experimentation in production code, only introduce changes that have been tested in proof-of-concept/small apps and approved by the team.   
 All this can be archived by staying close to the **Router-first architecture** as stated by Doguhan Uluca:
