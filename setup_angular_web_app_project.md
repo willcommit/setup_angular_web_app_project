@@ -5,7 +5,7 @@ This document is written by me as a high level cheat sheet for starting a new An
 This is a living document that will be updated as new insights and experiences are gained. Feel free to contribute with your own experiences of web app development.   
 
 # ANGULAR DEV ENV SETUP  
-This part is aimed for developers setting up their Angular development environment on a new machine. Most of the process can easily be scripted.   
+This part is aimed for myself and developers setting up their Angular development environment on a new machine. Most of the process can easily be scripted.   
 
 1. Install Git and GitHub Desktop, setup credentials (SSH, cache pwd or PA Token?)  
 2. If using Linux or Windows WSL, I highly recommend installing node via [Node Version Manager](https://github.com/nvm-sh/nvm). Avoid installing global packages as much as possible. This is to avoid version conflicts that can arise if the project version of Angular and the global Angular CLI version are not on the same version. 
