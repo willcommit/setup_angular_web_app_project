@@ -59,7 +59,7 @@ I will now go over these steps one at a time.
 
 ## Develop a roadmap and scope
 In the team establish and write down the **requirement specification** and discuss how you with the least amount of overhead can deliver most amount of your apps functionality (Pareto Principle). 
-Discuss who is the user of your app and their needs of UX, security and such. 
+Discuss who is the user of your app and their needs of UX and security. 
 Make a list of functionality that is "must haves" (ToDo board) and what should be on the "whish list" (Backlog board).
 
 ## Sketch the high level architecture
