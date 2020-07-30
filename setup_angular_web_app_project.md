@@ -1,6 +1,6 @@
 # SETUP ANGULAR WEB APP PROJECT
 
-This document is written by me as a high level cheat sheet for starting a new Angular web app Project. Very much inspired (sprinkled with my own experience) by [Doguhan Uluca's fantastic book.](https://www.packtpub.com/web-development/angular-8-enterprise-ready-web-applications-second-edition#tab-label-product.info.authors.tab)  
+This document is written by me as a high level cheat sheet for starting a new Angular web app project. Very much inspired (sprinkled with my own experience) by [Doguhan Uluca's fantastic book.](https://www.packtpub.com/web-development/angular-8-enterprise-ready-web-applications-second-edition#tab-label-product.info.authors.tab)  
 
 This is a living document that will be updated as new insights and experiences are gained. Feel free to contribute with your own experiences of web app development.   
 
