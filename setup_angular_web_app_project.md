@@ -17,7 +17,7 @@ This part is aimed for developers setting up their Angular development environme
 8. Install VS Code extensions, agree within the team over a minimum set of extensions and add them to the extensions.json in .vscode folder (exclude .vscode/extensions.json from .gitignore).
 9. Setup code styling and linting according to team/project/company decisions made. Add the config files needed to enforce this to source and script tests for CI server.
 
-Fantastic setup example: https://github.com/duluca/local-weather-app
+Fantastic setup example in these config files: https://github.com/duluca/local-weather-app
 
 # PROJECT SETUP
 
