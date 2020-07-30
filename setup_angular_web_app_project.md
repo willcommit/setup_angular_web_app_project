@@ -8,8 +8,8 @@ This is a living document that will be updated as new insights and experiences a
 This part is aimed for developers setting up their Angular development environment on a new machine. Most of the process can easily be scripted.   
 
 1. Install Git and GitHub Desktop, setup credentials (SSH, cache pwd or PA Token?)  
-2. If using Linux or Windows WSL, I highly recommend installing node via [Node Version Manager](https://github.com/nvm-sh/nvm). Avoid installing global packages as much as possible. This is to avoid version conflicts that can arise if project Angular and global Angular CLI are not on same version. 
-3. Install VS Code. On Linux use the .deb package from vscode site to save time, don't recommend snap.
+2. If using Linux or Windows WSL, I highly recommend installing node via [Node Version Manager](https://github.com/nvm-sh/nvm). Avoid installing global packages as much as possible. This is to avoid version conflicts that can arise if project Angular and global Angular CLI are not on the same version. 
+3. Install VS Code. On Linux add the official repo from VS Code team to your package manager, don't recommend snap.
 4. Install Docker
 5. Setup dev folder, as close to root as possible. Name folder repos or dev
 6. Establish workflow and code styling, see section "Team Setup"
