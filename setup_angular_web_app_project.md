@@ -66,7 +66,7 @@ Make a list of functionality that is "must haves" (ToDo board) and what should b
 Very much linked to above step. Use a tool like [draw.io](https://app.diagrams.net/) and sketch on a high level how the architecture should look. Things to keep in mind:
 - Backend requirements, scalability
 - Frontend requirements, scalability
-- How to enforce a decoupled architecture (key to scalability). REST API. Dependency Injection. Multi repo - hard decoupling
+- How to enforce a decoupled architecture (key to scalability). MVVM pattern. REST API. Dependency Injection. Multi repo - hard decoupling
 - API services
 - Authentication and Authorization
 - Security layers
