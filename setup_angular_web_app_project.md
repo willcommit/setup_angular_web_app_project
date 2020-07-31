@@ -9,7 +9,7 @@ This part is aimed for myself and developers setting up their Angular developmen
 
 1. Install Git and GitHub Desktop, setup credentials (SSH, cache pwd or PA Token?)  
 2. If using Linux or Windows WSL, I highly recommend installing node via [Node Version Manager](https://github.com/nvm-sh/nvm). Avoid installing global packages as much as possible. This is to avoid version conflicts that can arise if the project version of Angular and the global Angular CLI version are not on the same version. 
-3. Install VS Code. On Linux add the official repo from VS Code team to your package manager, don't recommend snap.
+3. Install VS Code. On Linux add the official repo from the VS Code team to your package manager, don't recommend snap.
 4. Install Docker
 5. Setup a dedicated dev folder, as close to root as possible.
 6. Establish workflow and code styling, see next section "PROJECT SETUP"
